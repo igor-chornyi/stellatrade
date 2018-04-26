@@ -1,0 +1,48 @@
+.hp {
+	text-decoration: none;
+}
+
+.hp:hover {
+	text-decoration: underline;
+}
+
+.loginForm {
+	width: 300px;
+	background-color: #2c2d2b;
+	margin: 300px auto;
+	padding: 30px;
+	text-align: center;
+}
+
+.form-input {
+	width: 100%;
+	display: inline-block;
+	padding: 15px 20px;
+	background-color: #fff;
+	border: none;
+	outline: none;
+	margin-bottom: 20px;
+	font-size: 16px;
+	box-sizing: border-box;
+}
+
+.form-submit {
+	width: 60%;
+	display: inline-block;
+	padding: 14px 20px;
+	background-color: #bf2b2b;
+	border: none;
+	color: #fff;
+	cursor: pointer;
+	transition: all .2s ease;
+	outline: none;
+	font-size: 16px;
+}
+
+.form-submit:hover {
+	background-color: #a02727;
+}
+
+.login-error {
+	color: red;
+}
